@@ -30,15 +30,5 @@ class PersonsTableSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ]);
         }
-        // for($i = 0; $i < 50; $i++) {
-        //     App\Person::create([
-        //         'nama_lengkap' => $faker->nama_lengkap,
-        //         'jenis_kelamin' => $faker->jenis_kelamin,
-        //         'tanggal_lahir' => $faker->tanggal_lahir,
-        //         'no_telepon' => $faker->no_telepon,
-        //         'email' => $faker->email,
-        //         'alamat' => $faker->alamat,
-        //     ]);
-        // }
     }
 }
